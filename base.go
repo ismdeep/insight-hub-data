@@ -206,7 +206,7 @@ func Download(blogger BloggerInterface) error {
 
 			info, err := blogger.GetBlogInfo(link)
 			if err != nil {
-				fmt.Printf("failed to get blog info: %v\n", err.Error())
+				fmt.Printf("failed to get blog info %v: %v\n", link, err.Error())
 				continue
 			}
 			if err := s.Save(core.Record{

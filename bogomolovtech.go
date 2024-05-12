@@ -36,7 +36,7 @@ func (receiver *BogomolovTech) GetLinksFromPage(pageURL string) ([]string, error
 func (receiver *BogomolovTech) GetBlogInfo(blogLink string) (*schema.Blog, error) {
 	return GetBlogInfo(blogLink, receiver.GetBloggerName(),
 		`//h1[@class="post-title"]`,
-		`//div[@class="name"]`,
+		`//link[@rel="alternate"]/@title`,
 		`//div[@class="post-content"]`,
 		func(doc *html.Node) (time.Time, error) {
 			return GetTime(doc, `//div[@class="post-meta"]//span[@class="attr"]/span`, "2006-01-02")

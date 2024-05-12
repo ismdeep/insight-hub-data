@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"sync"
 )
 
 func main() {
@@ -22,10 +23,22 @@ func main() {
 		&WhyDegree{},
 	}
 
+	var wg sync.WaitGroup
+	var errLst []error
 	for _, blogger := range schemas {
-		if err := Download(blogger); err != nil {
-			fmt.Println(err)
-			panic(err)
+		wg.Add(1)
+		go func(blogger BloggerInterface) {
+			defer wg.Done()
+			if err := Download(blogger); err != nil {
+				errLst = append(errLst, fmt.Errorf("failed to download blogger %v: %s", blogger.GetBloggerName(), err.Error()))
+			}
+			fmt.Println("FINISHED:", blogger.GetBloggerName())
+		}(blogger)
+	}
+	wg.Wait()
+	if len(errLst) > 0 {
+		for _, e := range errLst {
+			fmt.Println(e.Error())
 		}
 	}
 }
