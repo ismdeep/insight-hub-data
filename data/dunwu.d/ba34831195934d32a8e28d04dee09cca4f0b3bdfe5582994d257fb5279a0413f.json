@@ -1,0 +1,9 @@
+{
+  "id": "ba34831195934d32a8e28d04dee09cca4f0b3bdfe5582994d257fb5279a0413f",
+  "source": "dunwu",
+  "link": "https://dunwu.github.io/blog/pages/940342/",
+  "title": "亚马逊的架构",
+  "author": "钝悟 ◾ Dunwu",
+  "content": "\u003cdiv class=\"post-body\" itemprop=\"articleBody\"\u003e\u003ch1 id=\"亚马逊的架构\"\u003e\u003ca href=\"#亚马逊的架构\" class=\"headerlink\" title=\"亚马逊的架构\"\u003e\u003c/a\u003e亚马逊的架构\u003c/h1\u003e\u003ch2 id=\"摘录的要点\"\u003e\u003ca href=\"#摘录的要点\" class=\"headerlink\" title=\"摘录的要点\"\u003e\u003c/a\u003e摘录的要点\u003c/h2\u003e\u003cp\u003e可扩展：添加资源，性能成正比提升\u003c/p\u003e\n\u003cp\u003e分布式、去中心化\u003c/p\u003e\n\u003cp\u003e隔离性：面向服务，聚合数以百计的服务，对外统一提供服务\u003c/p\u003e\n\u003cp\u003e同时支持 REST 和 SOAP\u003c/p\u003e\n\u003cp\u003e团队在精不在多，节省沟通成本\u003c/p\u003e\n\u003cp\u003e状态管理是大规模系统的核心问题，如分布式 Session 等\u003c/p\u003e\n\u003cp\u003e设计应尽量简单，很多问题可以用业务逻辑去解决，而不是通过技术\u003c/p\u003e\n\u003ch2 id=\"参考资料\"\u003e\u003ca href=\"#参考资料\" class=\"headerlink\" title=\"参考资料\"\u003e\u003c/a\u003e参考资料\u003c/h2\u003e\u003cul\u003e\n\u003cli\u003e\u003ca target=\"_blank\" rel=\"noopener\" href=\"http://highscalability.com/amazon-architecture\"\u003eAmazon 的架构\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e",
+  "published_at": "2021-11-08T00:15:33Z"
+}

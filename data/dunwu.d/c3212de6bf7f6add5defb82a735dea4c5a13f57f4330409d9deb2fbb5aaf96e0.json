@@ -1,0 +1,9 @@
+{
+  "id": "c3212de6bf7f6add5defb82a735dea4c5a13f57f4330409d9deb2fbb5aaf96e0",
+  "source": "dunwu",
+  "link": "https://dunwu.github.io/blog/pages/27ad42/",
+  "title": "javalib-util",
+  "author": "钝悟 ◾ Dunwu",
+  "content": "\u003cdiv class=\"post-body\" itemprop=\"articleBody\"\u003e\u003ch1 id=\"细说-Java-主流工具包\"\u003e\u003ca href=\"#细说-Java-主流工具包\" class=\"headerlink\" title=\"细说 Java 主流工具包\"\u003e\u003c/a\u003e细说 Java 主流工具包\u003c/h1\u003e\u003cul\u003e\n\u003cli\u003eapache.commons\u003cul\u003e\n\u003cli\u003e\u003ca target=\"_blank\" rel=\"noopener\" href=\"https://github.com/apache/commons-lang\"\u003ecommons-lang\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca target=\"_blank\" rel=\"noopener\" href=\"https://github.com/apache/commons-collections\"\u003ecommons-collections\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca target=\"_blank\" rel=\"noopener\" href=\"https://github.com/apache/commons-io\"\u003ecommon-io\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003ca target=\"_blank\" rel=\"noopener\" href=\"https://github.com/google/guava\"\u003eguava\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e",
+  "published_at": "2022-02-17T14:34:30Z"
+}

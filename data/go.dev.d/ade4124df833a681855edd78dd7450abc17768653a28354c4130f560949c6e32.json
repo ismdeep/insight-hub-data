@@ -1,0 +1,9 @@
+{
+  "id": "ade4124df833a681855edd78dd7450abc17768653a28354c4130f560949c6e32",
+  "source": "go.dev",
+  "link": "https://go.dev/blog/go1-path",
+  "title": "The path to Go 1",
+  "author": "Andrew Gerrand",
+  "content": "\u003cdiv class=\"Article\" data-slug=\"/blog/go1-path\"\u003e\n    \n    \u003ch1 class=\"small\"\u003e\u003ca href=\"/blog/\"\u003eThe Go Blog\u003c/a\u003e\u003c/h1\u003e\n    \n\n    \u003ch1\u003eThe path to Go 1\u003c/h1\u003e\n      \n      \u003cp class=\"author\"\u003e\n      Andrew Gerrand\u003cbr/\u003e\n      14 March 2013\n      \u003c/p\u003e\n      \n      \u003cp\u003eIn July 2012, Rob Pike and I presented a talk at OSCON titled \u003cem\u003eThe path to Go 1\u003c/em\u003e.\nIn it we explain how Go 1 came to be, and outline the process by which Go\nwas refined and stabilized to become the clean,\nconsistent programming environment that it is today.\nWe present the major highlights of the release and discuss the details behind\nsome specific libraries and tools.\u003c/p\u003e\n\u003cdiv class=\"iframe\"\u003e\n  \u003ciframe src=\"https://www.youtube.com/embed/bj9T2c2Xk_s\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\" mozallowfullscreen=\"\" webkitallowfullscreen=\"\"\u003e\u003c/iframe\u003e\n\u003c/div\u003e\n\u003cp\u003eThe slides for the talk are \u003ca href=\"/talks/2012/go1.slide\"\u003eavailable here\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eIt’s almost a year since we cut Go 1.0 and we are now busy preparing Go 1.1.\nThe release will include performance improvements to the gc compiler,\ngarbage collector, and goroutine scheduler,\nsome standard library additions, and many bug fixes and other improvements.\nStay tuned, as we hope to release Go 1.1 in the coming weeks.\u003c/p\u003e\n\n    \u003c/div\u003e",
+  "published_at": "2013-03-14T00:00:00Z"
+}

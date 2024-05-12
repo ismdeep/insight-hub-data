@@ -1,0 +1,9 @@
+{
+  "id": "785f007f263796f0f98ea1487948d6c3aba086e6465963449b6275d5db42291b",
+  "source": "go.dev",
+  "link": "https://go.dev/blog/survey2011",
+  "title": "Getting to know the Go community",
+  "author": "Andrew Gerrand",
+  "content": "\u003cdiv class=\"Article\" data-slug=\"/blog/survey2011\"\u003e\n    \n    \u003ch1 class=\"small\"\u003e\u003ca href=\"/blog/\"\u003eThe Go Blog\u003c/a\u003e\u003c/h1\u003e\n    \n\n    \u003ch1\u003eGetting to know the Go community\u003c/h1\u003e\n      \n      \u003cp class=\"author\"\u003e\n      Andrew Gerrand\u003cbr/\u003e\n      21 December 2011\n      \u003c/p\u003e\n      \n      \u003cp\u003eOver the past couple of years Go has attracted a lot of users and contributors,\nand I’ve had a great time meeting and talking with many of you.\nHowever, for every Gopher I know there are dozens I know nothing about.\nIn order to address this imbalance I’ve prepared a survey for Go users everywhere.\u003c/p\u003e\n\u003cp\u003eThe survey is short. It asks about you, your involvement with Go,\nand your interest in Go-related events.\nAmong other things, this data will help myself and the rest of the Go team\nplan future Go events and schedule conference appearances.\u003c/p\u003e\n\u003cp\u003ePlease take a minute to \u003ca href=\"https://docs.google.com/spreadsheet/viewform?hl=en_US\u0026amp;formkey=dFdxOTU1Mm92VFA3eHdkekFPamJjUnc6MQ#gid=0\" rel=\"noreferrer\" target=\"_blank\"\u003ecomplete the survey now\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eThanks!\u003c/p\u003e\n\u003cp\u003eAndrew\u003c/p\u003e\n\n    \u003c/div\u003e",
+  "published_at": "2011-12-21T00:00:00Z"
+}

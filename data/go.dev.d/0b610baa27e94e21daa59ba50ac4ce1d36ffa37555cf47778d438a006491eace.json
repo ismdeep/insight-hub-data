@@ -1,0 +1,9 @@
+{
+  "id": "0b610baa27e94e21daa59ba50ac4ce1d36ffa37555cf47778d438a006491eace",
+  "source": "go.dev",
+  "link": "https://go.dev/blog/go2draft",
+  "title": "Go 2 Draft Designs",
+  "author": "go.dev",
+  "content": "\u003cdiv class=\"Article\" data-slug=\"/blog/go2draft\"\u003e\n    \n    \u003ch1 class=\"small\"\u003e\u003ca href=\"/blog/\"\u003eThe Go Blog\u003c/a\u003e\u003c/h1\u003e\n    \n\n    \u003ch1\u003eGo 2 Draft Designs\u003c/h1\u003e\n      \n      \u003cp class=\"author\"\u003e\n      \n      28 August 2018\n      \u003c/p\u003e\n      \n      \u003cp\u003eYesterday, at our annual Go contributor summit,\nattendees got a sneak peek at preliminary \u003cem\u003edrafts\u003c/em\u003e of\npossible designs for changes to error handling and generics.\n\u003ca href=\"/blog/toward-go2\"\u003eThe development of Go 2\u003c/a\u003e was announced last year and we are excited to share updates with you today.\u003c/p\u003e\n\u003cp\u003eFor a quick overview, watch this short message we just played at Gophercon 2018:\u003c/p\u003e\n\u003cdiv class=\"iframe\"\u003e\n  \u003ciframe src=\"https://www.youtube.com/embed/6wIP3rO6On8\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\" mozallowfullscreen=\"\" webkitallowfullscreen=\"\"\u003e\u003c/iframe\u003e\n\u003c/div\u003e\n\u003cp\u003eWe invite everyone in the Go community to\n\u003ca href=\"https://go.googlesource.com/proposal/+/master/design/go2draft.md\" rel=\"noreferrer\" target=\"_blank\"\u003elearn more about the designs\u003c/a\u003e\nand help us improve them.\u003c/p\u003e\n\n    \u003c/div\u003e",
+  "published_at": "2018-08-28T00:00:00Z"
+}

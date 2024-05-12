@@ -1,0 +1,9 @@
+{
+  "id": "efe0b08dcf9121042aca82f7ca94a46485166b136776d62c86f567b12ac326c3",
+  "source": "go.dev",
+  "link": "https://go.dev/blog/tour",
+  "title": "Learn Go from your browser",
+  "author": "Andrew Gerrand",
+  "content": "\u003cdiv class=\"Article\" data-slug=\"/blog/tour\"\u003e\n    \n    \u003ch1 class=\"small\"\u003e\u003ca href=\"/blog/\"\u003eThe Go Blog\u003c/a\u003e\u003c/h1\u003e\n    \n\n    \u003ch1\u003eLearn Go from your browser\u003c/h1\u003e\n      \n      \u003cp class=\"author\"\u003e\n      Andrew Gerrand\u003cbr/\u003e\n      4 October 2011\n      \u003c/p\u003e\n      \n      \u003cp\u003eWe are excited to announce \u003ca href=\"/tour/\"\u003eA Tour of Go\u003c/a\u003e,\na guided tour of the Go programming language you can run from your browser.\u003c/p\u003e\n\u003cp\u003eThe tour is hands-on, demonstrating the language through code samples that you can modify,\ncompile, and run from the tour itself.\n(The technology behind the \u003ca href=\"/doc/play/\"\u003eGo Playground\u003c/a\u003e does the work.)\u003c/p\u003e\n\u003cp\u003eThe tour has four sections. The first section covers basic syntax and data structures;\nthe second discusses methods and interfaces;\nthe third is about Generics;\nand the fourth introduces Go’s concurrency primitives.\nEach section concludes with a few exercises so you can practice what you’ve learned.\u003c/p\u003e\n\u003cp\u003eSo, what are you waiting for? \u003ca href=\"/tour/\"\u003eGet started now!\u003c/a\u003e\u003c/p\u003e\n\n    \u003c/div\u003e",
+  "published_at": "2011-10-04T00:00:00Z"
+}

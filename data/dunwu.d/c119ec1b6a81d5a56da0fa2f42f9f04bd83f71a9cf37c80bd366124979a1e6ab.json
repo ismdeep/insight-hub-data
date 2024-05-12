@@ -1,0 +1,9 @@
+{
+  "id": "c119ec1b6a81d5a56da0fa2f42f9f04bd83f71a9cf37c80bd366124979a1e6ab",
+  "source": "dunwu",
+  "link": "https://dunwu.github.io/blog/pages/d780e2/",
+  "title": "《The Log-Structured Merge-Tree (LSM-Tree)》笔记",
+  "author": "钝悟 ◾ Dunwu",
+  "content": "\u003cdiv class=\"post-body\" itemprop=\"articleBody\"\u003e\u003ch1 id=\"《The-Log-Structured-Merge-Tree-LSM-Tree-》笔记\"\u003e\u003ca href=\"#《The-Log-Structured-Merge-Tree-LSM-Tree-》笔记\" class=\"headerlink\" title=\"《The Log-Structured Merge-Tree (LSM-Tree)》笔记\"\u003e\u003c/a\u003e《The Log-Structured Merge-Tree (LSM-Tree)》笔记\u003c/h1\u003e\u003cp\u003eLSM 被广泛应用于很多以文件结构存储数据的数据库，如：HBase, Cassandra, LevelDB, SQLite。\u003c/p\u003e\n\u003cp\u003eLSM 的设计目标：通过顺序写来提高写操作吞吐量，替代传统的 B+ 树或 ISAM。\u003c/p\u003e\n\u003ch2 id=\"参考资料\"\u003e\u003ca href=\"#参考资料\" class=\"headerlink\" title=\"参考资料\"\u003e\u003c/a\u003e参考资料\u003c/h2\u003e\u003cul\u003e\n\u003cli\u003e原文\u003c/li\u003e\n\u003cli\u003e[The Log-Structured-Merge-Tree](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/\u003ca target=\"_blank\" rel=\"noopener\" href=\"https://www.cs.umb/\"\u003ehttps://www.cs.umb\u003c/a\u003e.\u003cbr/\u003eedu/~poneil/lsmtree.pdf)\u003c/li\u003e\n\u003cli\u003e扩展阅读\u003c/li\u003e\n\u003cli\u003e\u003ca target=\"_blank\" rel=\"noopener\" href=\"https://www.open-open.com/lib/view/open1424916275249.html\"\u003eLog Structured Merge Trees(LSM) 原理\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://lrita.github.io/images/posts/database/lsmtree-170129180333.pdf\"\u003eLog Structured Merge Tree\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e",
+  "published_at": "2023-09-05T11:52:01Z"
+}

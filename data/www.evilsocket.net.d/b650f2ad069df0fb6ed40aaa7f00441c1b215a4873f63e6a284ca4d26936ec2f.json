@@ -1,0 +1,9 @@
+{
+  "id": "b650f2ad069df0fb6ed40aaa7f00441c1b215a4873f63e6a284ca4d26936ec2f",
+  "source": "www.evilsocket.net",
+  "link": "https://www.evilsocket.net/2016/08/24/RCE-against-every-open-source-BTS/",
+  "title": "DISCLOSURE - RCE Against Every Open Source BTS Software.",
+  "author": "Simone Margaritelli",
+  "content": "\u003cdiv class=\"content\" itemprop=\"articleBody\"\u003e\n\u003cp\u003eThis is a repost of an analysis of mine that has been posted on Zimperium’s blog, basically I’ve found that the following products are vulnerable to remote command execution, plus other various logic errors n’ stuff:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eYateBTS \u0026lt;= 5.0.0\u003c/li\u003e\n\u003cli\u003eOpenBTS \u0026lt;= 4.0.0\u003c/li\u003e\n\u003cli\u003eOpenBTS-UMTS \u0026lt;= 1.0.0\u003c/li\u003e\n\u003cli\u003eOsmo-TRX/Osmo-BTS \u0026lt;= 0.1.10\u003c/li\u003e\n\u003cli\u003eOther products that share the same transceiver code base.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg src=\"https://blog.zimperium.com/wp-content/uploads/2016/08/chart-1.png\" alt=\"bts\"/\u003e\u003c/p\u003e\n\u003cspan id=\"more\"\u003e\u003c/span\u003e\n\u003cp\u003eLong story short, they bind the transceiver server process to \u003ccode\u003eINADDR_ANY\u003c/code\u003e instead of \u003ccode\u003eINADDR_LOOPBACK\u003c/code\u003e, this makes it reachable by anyone on the same network (no authentication mechanism was implemented), moreover there’s an exploitable stack buffer overflow on the control socket, if you rely on both of this issues … well, you’ve got the idea :)\u003c/p\u003e\n\u003cp\u003eAll details and the analysis itself \u003ca target=\"_blank\" rel=\"noopener\" href=\"https://blog.zimperium.com/analysis-of-multiple-vulnerabilities-in-different-open-source-bts-products/\"\u003ecan be found here\u003c/a\u003e.\u003c/p\u003e\n\u003c/div\u003e",
+  "published_at": "2016-08-24T18:43:14Z"
+}

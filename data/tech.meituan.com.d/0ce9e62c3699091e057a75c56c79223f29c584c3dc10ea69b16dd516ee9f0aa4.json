@@ -1,0 +1,9 @@
+{
+  "id": "0ce9e62c3699091e057a75c56c79223f29c584c3dc10ea69b16dd516ee9f0aa4",
+  "source": "tech.meituan.com",
+  "link": "https://tech.meituan.com/2021/08/19/low-resource-learning.html",
+  "title": "小样本学习及其在美团场景中的应用",
+  "author": "soulteary@gmail.com",
+  "content": "\u003cdiv class=\"post-content\"\u003e\u003cdiv class=\"content\"\u003e\u003cp\u003e\u003cimg src=\"https://p1.meituan.net/travelcube/28298c53b2c2ed3c50c6bd62e946ab343112883.png\" alt=\"\"/\u003e\n\u003cimg src=\"https://p0.meituan.net/travelcube/2e4dccf23aad0a1ac3586d9d528369082907386.png\" alt=\"\"/\u003e\n\u003cimg src=\"https://p1.meituan.net/travelcube/31b742d62f2771aac3e979b43c2f628a3758477.png\" alt=\"\"/\u003e\n\u003cimg src=\"https://p0.meituan.net/travelcube/49a474118743d1dd664dead68786602a3088909.png\" alt=\"\"/\u003e\n\u003cimg src=\"https://p0.meituan.net/travelcube/19249329bed2e0d9eaa58792b4cf6c2c4340402.png\" alt=\"\"/\u003e\u003c/p\u003e\u003ch2 id=\"作者简介\"\u003e作者简介\u003c/h2\u003e\u003cp\u003e骆颖、徐俊、谢睿、武威等，均来自美团搜索与NLP部/NLP中心。\u003c/p\u003e\u003ch2 id=\"招聘信息\"\u003e招聘信息\u003c/h2\u003e\u003cp\u003e美团搜索与NLP部/NLP中心是负责美团人工智能技术研发的核心团队，使命是打造世界一流的自然语言处理核心技术和服务能力，依托NLP（自然语言处理）、Deep Learning（深度学习）、Knowledge Graph（知识图谱）等技术，处理美团海量文本数据，为美团各项业务提供智能的文本语义理解服务。\u003c/p\u003e\u003cp\u003eNLP中心长期招聘自然语言处理算法专家/机器学习算法专家，感兴趣的同学可以将简历发送至xujun12@meituan.com。\u003c/p\u003e\u003c/div\u003e\u003c/div\u003e",
+  "published_at": "2021-08-19T00:00:00Z"
+}

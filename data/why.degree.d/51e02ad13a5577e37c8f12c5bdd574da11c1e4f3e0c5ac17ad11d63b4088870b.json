@@ -1,0 +1,9 @@
+{
+  "id": "51e02ad13a5577e37c8f12c5bdd574da11c1e4f3e0c5ac17ad11d63b4088870b",
+  "source": "why.degree",
+  "link": "https://why.degree/on-concurrent-dictionaries/",
+  "title": "on concurrent dictionaries",
+  "author": "why.degree",
+  "content": "\u003cdiv class=\"post-content e-content\" itemprop=\"articleBody\"\u003e\n    \u003cp\u003eI recently fixed some simple race conditions at work, which were caused by devs who lack a full understanding of concurrency and misuse the ConcurrentDictionary from the standard library. It seems they have a vague sense that when multiple threads are involved, concurrency might be needed: the classic Dictionary isn’t suitable anymore. However, instead of reaching for a simple lock, they are swayed by the presence of ConcurrentDictionary and overlook the broader problem. My hope is that removing these structures from the library would force more people to naively yet correctly use locks and guard them from introducing bugs.\u003c/p\u003e\n\n  \u003c/div\u003e",
+  "published_at": "2024-04-23T13:00:05+01:00"
+}

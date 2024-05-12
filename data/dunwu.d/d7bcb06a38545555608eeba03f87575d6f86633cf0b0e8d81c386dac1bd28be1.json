@@ -1,0 +1,9 @@
+{
+  "id": "d7bcb06a38545555608eeba03f87575d6f86633cf0b0e8d81c386dac1bd28be1",
+  "source": "dunwu",
+  "link": "https://dunwu.github.io/blog/pages/4ae6a4/",
+  "title": "电商",
+  "author": "钝悟 ◾ Dunwu",
+  "content": "\u003cdiv class=\"post-body\" itemprop=\"articleBody\"\u003e\u003ch1 id=\"电商\"\u003e\u003ca href=\"#电商\" class=\"headerlink\" title=\"电商\"\u003e\u003c/a\u003e电商\u003c/h1\u003e\u003ch2 id=\"基本业务架构\"\u003e\u003ca href=\"#基本业务架构\" class=\"headerlink\" title=\"基本业务架构\"\u003e\u003c/a\u003e基本业务架构\u003c/h2\u003e\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/dunwu/images/master/snap/20210805222544.jpg\" alt=\"img\"/\u003e\u003c/p\u003e\n\u003ch3 id=\"订单\"\u003e\u003ca href=\"#订单\" class=\"headerlink\" title=\"订单\"\u003e\u003c/a\u003e订单\u003c/h3\u003e\u003cp\u003e订单服务一般不主动调用其他服务\u003c/p\u003e\n\u003cp\u003e订单服务不负责和第三方集成\u003c/p\u003e\n\u003cp\u003e订单服务不提供优惠计算或成本分摊逻辑\u003c/p\u003e\n\u003ch4 id=\"订单信息管理\"\u003e\u003ca href=\"#订单信息管理\" class=\"headerlink\" title=\"订单信息管理\"\u003e\u003c/a\u003e订单信息管理\u003c/h4\u003e\u003cul\u003e\n\u003cli\u003e用户\u003c/li\u003e\n\u003cli\u003e商品\u003c/li\u003e\n\u003cli\u003e收货人\u003c/li\u003e\n\u003cli\u003e收货地址\u003c/li\u003e\n\u003cli\u003e收货时间\u003c/li\u003e\n\u003cli\u003e订单状态\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4 id=\"优惠券\"\u003e\u003ca href=\"#优惠券\" class=\"headerlink\" title=\"优惠券\"\u003e\u003c/a\u003e优惠券\u003c/h4\u003e\u003ch2 id=\"典型问题\"\u003e\u003ca href=\"#典型问题\" class=\"headerlink\" title=\"典型问题\"\u003e\u003c/a\u003e典型问题\u003c/h2\u003e\u003cp\u003e秒杀活动\u003c/p\u003e\n\u003cp\u003e超卖\u003c/p\u003e\n\n    \u003c/div\u003e",
+  "published_at": "2021-08-05T15:42:12Z"
+}

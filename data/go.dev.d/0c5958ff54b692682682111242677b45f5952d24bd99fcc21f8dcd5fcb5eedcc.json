@@ -1,0 +1,9 @@
+{
+  "id": "0c5958ff54b692682682111242677b45f5952d24bd99fcc21f8dcd5fcb5eedcc",
+  "source": "go.dev",
+  "link": "https://go.dev/blog/survey2023-q1",
+  "title": "Share your feedback about developing with Go",
+  "author": "Alice Merrick, for the Go team",
+  "content": "\u003cdiv class=\"Article\" data-slug=\"/blog/survey2023-q1\"\u003e\n    \n    \u003ch1 class=\"small\"\u003e\u003ca href=\"/blog/\"\u003eThe Go Blog\u003c/a\u003e\u003c/h1\u003e\n    \n\n    \u003ch1\u003eShare your feedback about developing with Go\u003c/h1\u003e\n      \n      \u003cp class=\"author\"\u003e\n      Alice Merrick, for the Go team\u003cbr/\u003e\n      18 January 2023\n      \u003c/p\u003e\n      \n      \u003cp\u003eHappy 2023! For seven years, the Go Team has conducted a regular survey of Go\ndevelopers. The results of this survey have helped the team plan and prioritize\nlarge changes to the Go ecosystem, such as dependency management, vulnerability\nscanning, and generics. We want Go to be increasingly usable by and useful to\ndevelopers, and your feedback has been a critical aspect of making that happen.\u003c/p\u003e\n\u003cp\u003eSo here is \u003ca href=\"https://google.qualtrics.com/jfe/form/SV_bNnbAtFZ0vfRTH8?s=b\" rel=\"noreferrer\" target=\"_blank\"\u003ethe January 2023 edition of the Go Developer\nSurvey\u003c/a\u003e! This\nsurvey will run through Feb 8th, and we plan to publish anonymous, aggregated\nresults in early March. It should take about  10 minutes to complete, and all\nquestions are optional. Please help to shape Go’s future by sharing your\nthoughts and experiences.\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://google.qualtrics.com/jfe/form/SV_bNnbAtFZ0vfRTH8?s=b\" rel=\"noreferrer\" target=\"_blank\"\u003eTake the Go Developer\nSurvey\u003c/a\u003e (open\nJanuary 18th – February 8th)\u003c/p\u003e\n\n    \u003c/div\u003e",
+  "published_at": "2023-01-18T00:00:00Z"
+}
