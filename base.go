@@ -21,10 +21,12 @@ import (
 // BloggerInterface blogger interface
 type BloggerInterface interface {
 	GetBloggerName() string
+	GetSourceName() string
 	GetAllPageURLs() []string
 	GetFirstPageURL() string
 	GetLinksFromPage(pageURL string) ([]string, error)
 	GetBlogInfo(blogLink string) (*schema.Blog, error)
+	Homepage() string
 }
 
 // GetHTML get html
@@ -151,7 +153,7 @@ func GetTime(top *html.Node, expr string, timeFormat string) (time.Time, error) 
 
 func Download(blogger BloggerInterface) error {
 
-	source := blogger.GetBloggerName()
+	source := blogger.GetSourceName()
 	indexFile := fmt.Sprintf("data/%v.txt", source)
 
 	f, err := os.OpenFile(indexFile, os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0640)
@@ -159,7 +161,12 @@ func Download(blogger BloggerInterface) error {
 		return err
 	}
 
-	s := core.NewStore(f, func(r core.Record) error {
+	metaDataWriter, err := os.OpenFile(fmt.Sprintf("data/%v.meta.json", source), os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0640)
+	if err != nil {
+		return err
+	}
+
+	s := core.NewStore(f, metaDataWriter, func(r core.Record) error {
 		r.ID = core.RecordID(r)
 		raw, err := json.MarshalIndent(r, "", "  ")
 		if err != nil {
@@ -184,6 +191,14 @@ func Download(blogger BloggerInterface) error {
 		return err
 	}
 	if err := s.Load(bytes.NewBuffer(raw)); err != nil {
+		return err
+	}
+
+	if err := s.WriteMeta(core.Meta{
+		Source:   blogger.GetSourceName(),
+		HomePage: blogger.Homepage(),
+		Name:     blogger.GetBloggerName(),
+	}); err != nil {
 		return err
 	}
 

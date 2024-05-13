@@ -13,8 +13,17 @@ import (
 type DunWu struct {
 }
 
+func (receiver *DunWu) Homepage() string {
+	return "https://dunwu.github.io/blog/"
+}
+
 // GetBloggerName get blogger name
 func (receiver *DunWu) GetBloggerName() string {
+	return "钝悟"
+}
+
+// GetSourceName get source name
+func (receiver *DunWu) GetSourceName() string {
 	return "dunwu"
 }
 

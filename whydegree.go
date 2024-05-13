@@ -12,8 +12,17 @@ import (
 type WhyDegree struct {
 }
 
+func (receiver *WhyDegree) Homepage() string {
+	return "https://why.degree/"
+}
+
 // GetBloggerName get blogger name
 func (receiver *WhyDegree) GetBloggerName() string {
+	return "why.degree"
+}
+
+// GetSourceName get source name
+func (receiver *WhyDegree) GetSourceName() string {
 	return "why.degree"
 }
 

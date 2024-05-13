@@ -13,8 +13,17 @@ import (
 type GoDev struct {
 }
 
+func (receiver *GoDev) Homepage() string {
+	return "https://go.dev/blog/"
+}
+
 // GetBloggerName get blogger name
 func (receiver *GoDev) GetBloggerName() string {
+	return "The Go Blog"
+}
+
+// GetSourceName get source name
+func (receiver *GoDev) GetSourceName() string {
 	return "go.dev"
 }
 

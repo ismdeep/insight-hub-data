@@ -12,8 +12,17 @@ import (
 type BogomolovTech struct {
 }
 
+func (receiver *BogomolovTech) Homepage() string {
+	return "https://bogomolov.tech/"
+}
+
 // GetBloggerName get blogger name
 func (receiver *BogomolovTech) GetBloggerName() string {
+	return "Konstantin Bogomolov"
+}
+
+// GetSourceName get source name
+func (receiver *BogomolovTech) GetSourceName() string {
 	return "bogomolov.tech"
 }
 

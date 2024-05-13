@@ -13,8 +13,17 @@ import (
 type Akarin struct {
 }
 
+func (receiver *Akarin) Homepage() string {
+	return "https://akarin.dev/"
+}
+
 // GetBloggerName get blogger name
 func (receiver *Akarin) GetBloggerName() string {
+	return "小透明・宸"
+}
+
+// GetSourceName get source name
+func (receiver *Akarin) GetSourceName() string {
 	return "akarin.dev"
 }
 

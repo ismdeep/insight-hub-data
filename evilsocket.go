@@ -13,8 +13,17 @@ import (
 type Evilsocket struct {
 }
 
+func (receiver *Evilsocket) Homepage() string {
+	return "https://www.evilsocket.net/"
+}
+
 // GetBloggerName get blogger name
 func (receiver *Evilsocket) GetBloggerName() string {
+	return "evilsocket"
+}
+
+// GetSourceName get source name
+func (receiver *Evilsocket) GetSourceName() string {
 	return "www.evilsocket.net"
 }
 

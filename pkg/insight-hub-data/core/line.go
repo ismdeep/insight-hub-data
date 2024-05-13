@@ -1,6 +1,7 @@
 package core
 
 import (
+	"encoding/json"
 	"errors"
 	"io"
 	"strings"
@@ -9,13 +10,15 @@ import (
 type Store struct {
 	loaded            map[string]bool
 	output            io.Writer
+	metaDataWriter    io.Writer
 	contentWriterFunc func(r Record) error
 }
 
-func NewStore(writer io.Writer, contentWriterFunc func(r Record) error) *Store {
+func NewStore(writer io.Writer, metaDataWriter io.Writer, contentWriterFunc func(r Record) error) *Store {
 	return &Store{
 		loaded:            make(map[string]bool),
 		output:            writer,
+		metaDataWriter:    metaDataWriter,
 		contentWriterFunc: contentWriterFunc,
 	}
 }
@@ -55,6 +58,22 @@ func LinkIsTidy(link string) bool {
 		return false
 	}
 	return true
+}
+
+func (receiver *Store) WriteMeta(meta Meta) error {
+	if receiver.metaDataWriter == nil {
+		return errors.New("MetaDataWriter is nil")
+	}
+
+	raw, err := json.MarshalIndent(meta, "", "  ")
+	if err != nil {
+		return err
+	}
+
+	if _, err := receiver.metaDataWriter.Write(raw); err != nil {
+		return err
+	}
+	return nil
 }
 
 func (receiver *Store) Write(r Record) error {

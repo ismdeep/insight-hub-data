@@ -13,8 +13,17 @@ import (
 type MeituanTech struct {
 }
 
+func (receiver *MeituanTech) Homepage() string {
+	return "https://tech.meituan.com/"
+}
+
 // GetBloggerName get blogger name
 func (receiver *MeituanTech) GetBloggerName() string {
+	return "美团技术团队"
+}
+
+// GetSourceName get source name
+func (receiver *MeituanTech) GetSourceName() string {
 	return "tech.meituan.com"
 }
 

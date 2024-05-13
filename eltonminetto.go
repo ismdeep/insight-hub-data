@@ -12,8 +12,17 @@ import (
 type EltonMinetto struct {
 }
 
+func (receiver *EltonMinetto) Homepage() string {
+	return "https://eltonminetto.dev/"
+}
+
 // GetBloggerName get blogger name
 func (receiver *EltonMinetto) GetBloggerName() string {
+	return "Meu nome é Elton Minetto"
+}
+
+// GetSourceName get source name
+func (receiver *EltonMinetto) GetSourceName() string {
 	return "eltonminetto.dev"
 }
 

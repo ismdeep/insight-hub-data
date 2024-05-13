@@ -3,6 +3,7 @@ package core
 import (
 	"bytes"
 	_ "embed"
+	"fmt"
 	"os"
 	"testing"
 	"time"
@@ -12,7 +13,10 @@ import (
 var exampleData []byte
 
 func TestStore_Write(t *testing.T) {
-	s := NewStore(os.Stdout)
+	s := NewStore(os.Stdout, os.Stdout, func(r Record) error {
+		fmt.Println(r.ID, r.Author, r.Title, r.PublishedAt)
+		return nil
+	})
 
 	if err := s.Load(bytes.NewReader(exampleData)); err != nil {
 		t.Errorf("failed to load data: %s", err)

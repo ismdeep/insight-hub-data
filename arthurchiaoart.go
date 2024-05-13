@@ -15,8 +15,17 @@ import (
 type ArthurChiaoArt struct {
 }
 
+func (receiver *ArthurChiaoArt) Homepage() string {
+	return "https://arthurchiao.art/"
+}
+
 // GetBloggerName get blogger name
 func (receiver *ArthurChiaoArt) GetBloggerName() string {
+	return "ARTHURCHIAO'S BLOG"
+}
+
+// GetSourceName get source name
+func (receiver *ArthurChiaoArt) GetSourceName() string {
 	return "arthurchiao.art"
 }
 

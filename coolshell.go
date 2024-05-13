@@ -12,8 +12,17 @@ import (
 type CoolShell struct {
 }
 
+func (receiver *CoolShell) Homepage() string {
+	return "https://coolshell.cn/"
+}
+
 // GetBloggerName get blogger name
 func (receiver *CoolShell) GetBloggerName() string {
+	return "酷壳 - CoolShell"
+}
+
+// GetSourceName get source name
+func (receiver *CoolShell) GetSourceName() string {
 	return "coolshell.cn"
 }
 

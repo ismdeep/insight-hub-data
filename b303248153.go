@@ -14,8 +14,17 @@ import (
 type B303248153 struct {
 }
 
+func (receiver *B303248153) Homepage() string {
+	return "https://303248153.github.io/"
+}
+
 // GetBloggerName get blogger name
 func (receiver *B303248153) GetBloggerName() string {
+	return "老农的博客"
+}
+
+// GetSourceName get source name
+func (receiver *B303248153) GetSourceName() string {
 	return "303248153.github.io"
 }
 

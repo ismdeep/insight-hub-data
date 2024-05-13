@@ -15,8 +15,16 @@ import (
 type Antonz struct {
 }
 
+func (receiver *Antonz) Homepage() string {
+	return "https://antonz.org/"
+}
+
 // GetBloggerName get blogger name
 func (receiver *Antonz) GetBloggerName() string {
+	return "Anton Zhiyanov"
+}
+
+func (receiver *Antonz) GetSourceName() string {
 	return "antonz.org"
 }
 

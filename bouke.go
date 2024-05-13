@@ -12,8 +12,17 @@ import (
 type BouKe struct {
 }
 
+func (receiver *BouKe) Homepage() string {
+	return "https://bou.ke/"
+}
+
 // GetBloggerName get blogger name
 func (receiver *BouKe) GetBloggerName() string {
+	return "Bouke van der Bijl"
+}
+
+// GetSourceName get source name
+func (receiver *BouKe) GetSourceName() string {
 	return "bou.ke"
 }
 
